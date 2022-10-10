@@ -25,6 +25,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTConnect.NET", "MTConnect.NET\MTConnect.NET.csproj", "{D7ECE6E3-647D-4F74-B63E-C509153EB4B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTConnect-Sniffer", "MTConnect-Sniffer\MTConnect-Sniffer.csproj", "{2D446B93-9882-4257-B006-81F68B13B215}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7ECE6E3-647D-4F74-B63E-C509153EB4B7} = {D7ECE6E3-647D-4F74-B63E-C509153EB4B7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

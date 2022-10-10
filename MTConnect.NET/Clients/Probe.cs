@@ -128,7 +128,7 @@ namespace MTConnect.Clients
             // Create Uri
             var uri = new Uri(BaseUrl);
             uri = new Uri(uri, "probe");
-            if (DeviceName != null) uri = new Uri(uri, DeviceName);
+            if (DeviceName != null) uri = new Uri(uri, DeviceName + "/probe");
 
             //// Create HTTP Client and Request Data
             var client = new HttpClient();
